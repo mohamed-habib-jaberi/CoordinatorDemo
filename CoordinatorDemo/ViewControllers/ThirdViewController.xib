@@ -16,7 +16,26 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nkj-fp-cel">
+                    <rect key="frame" x="107" y="398" width="200" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="ku3-6c-ZRU"/>
+                        <constraint firstAttribute="width" constant="200" id="xWr-yq-PPU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                    <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" title="Go to First Page"/>
+                    <connections>
+                        <action selector="navigateToFirstPageAction:" destination="-1" eventType="touchUpInside" id="qBU-Cf-E3n"/>
+                    </connections>
+                </button>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="nkj-fp-cel" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="EDG-05-Lc7"/>
+                <constraint firstItem="nkj-fp-cel" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="mjA-kR-XBQ"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="139" y="105"/>
         </view>
