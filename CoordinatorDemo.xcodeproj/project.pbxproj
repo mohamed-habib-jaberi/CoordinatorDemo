@@ -20,6 +20,8 @@
 		614D446B2510F7DC00D2018A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614D44692510F7DC00D2018A /* SecondViewController.swift */; };
 		614D446C2510F7DC00D2018A /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614D446A2510F7DC00D2018A /* SecondViewController.xib */; };
 		614D446E2510F82200D2018A /* SecondCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614D446D2510F82200D2018A /* SecondCoordinator.swift */; };
+		614D44712511026700D2018A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 614D446F2511026700D2018A /* ThirdViewController.swift */; };
+		614D44722511026700D2018A /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 614D44702511026700D2018A /* ThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		614D44692510F7DC00D2018A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		614D446A2510F7DC00D2018A /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 		614D446D2510F82200D2018A /* SecondCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondCoordinator.swift; sourceTree = "<group>"; };
+		614D446F2511026700D2018A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		614D44702511026700D2018A /* ThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +158,8 @@
 				614D44642510F24700D2018A /* FirstViewController.xib */,
 				614D44692510F7DC00D2018A /* SecondViewController.swift */,
 				614D446A2510F7DC00D2018A /* SecondViewController.xib */,
+				614D446F2511026700D2018A /* ThirdViewController.swift */,
+				614D44702511026700D2018A /* ThirdViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -274,6 +280,7 @@
 				614D446C2510F7DC00D2018A /* SecondViewController.xib in Resources */,
 				614D443B2510F0D400D2018A /* LaunchScreen.storyboard in Resources */,
 				614D44662510F24800D2018A /* FirstViewController.xib in Resources */,
+				614D44722511026700D2018A /* ThirdViewController.xib in Resources */,
 				614D44382510F0D400D2018A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +312,7 @@
 				614D442F2510F0CF00D2018A /* AppDelegate.swift in Sources */,
 				614D446E2510F82200D2018A /* SecondCoordinator.swift in Sources */,
 				614D44312510F0CF00D2018A /* SceneDelegate.swift in Sources */,
+				614D44712511026700D2018A /* ThirdViewController.swift in Sources */,
 				614D44652510F24800D2018A /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

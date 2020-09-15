@@ -30,7 +30,17 @@ extension FirstCoordinator: FirstViewControllerDelegate {
     // Navigate to next page
     func navigateToNextPage() {
        let secondCoordinator = SecondCoordinator(navigationController: navigationController)
+        secondCoordinator.delegate = self
        childCoordinators.append(secondCoordinator)
        secondCoordinator.start()
+    }
+}
+
+extension FirstCoordinator: BackToFirstViewControllerDelegate {
+    
+    // Back from third page
+    func navigateBackToFirstPage(newOrderCoordinator: SecondCoordinator) {
+        navigationController.popToRootViewController(animated: true)
+        childCoordinators.removeLast()
     }
 }
