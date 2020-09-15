@@ -9,6 +9,8 @@
 import UIKit
 
 class ThirdViewController: UIViewController {
+    
+    public weak var delegate: SecondViewControllerDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,4 +18,5 @@ class ThirdViewController: UIViewController {
         title = "ThirdViewController"
     }
 
+    
 }

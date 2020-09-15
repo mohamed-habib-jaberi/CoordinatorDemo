@@ -10,7 +10,7 @@ import UIKit
 
 public protocol SecondViewControllerDelegate: class {
     func navigateToFirstPage()
-    
+    func navigateToThirdPage()
 }
 
 class SecondViewController: UIViewController {
@@ -30,6 +30,10 @@ class SecondViewController: UIViewController {
     @objc func navigateBackToFirstpage() {
         print("navigateBackToFirstpage")
         self.delegate?.navigateToFirstPage()
+    }
+    
+    @IBAction func navigateToThirdPageAction(_ sender: Any) {
+        self.delegate?.navigateToThirdPage()
     }
     
     
